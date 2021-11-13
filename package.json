@@ -1,0 +1,31 @@
+{
+  "name": "hlhr-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/common",
+    "projects/project-ssr",
+    "projects/project-csr"
+  ],
+  "author": "haoran",
+  "license": "ISC",
+  "dependencies": {
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.7",
+    "@types/react": "17.0.34",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3",
+    "typescript": "4.4.4",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "vite": "^2.6.4"
+  },
+  "description": ""
+}
