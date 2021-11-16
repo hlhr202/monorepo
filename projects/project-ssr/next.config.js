@@ -28,13 +28,13 @@ const path = require("path");
  * https://github.com/vercel/next.js/pull/22867
  * 
  * experimental: {
- *     externalDir: path.resolve(__dirname, "../../packages"),
+ *     externalDir: true,
  * }
  */
 
 module.exports = {
     reactStrictMode: true,
     experimental: {
-        externalDir: path.resolve(__dirname, "../../packages"),
+        externalDir: true,
     },
 };
