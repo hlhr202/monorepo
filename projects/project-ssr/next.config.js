@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const path = require("path");
 
 /**
  * Add support to transpile modules inside node_modules
